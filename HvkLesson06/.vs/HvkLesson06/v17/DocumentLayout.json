@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLesson06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB15E64-CA5A-46EB-AF85-59A08210F7AD}|HvkLesson06.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvklesson06\\views\\hvksong\\hvkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5AB15E64-CA5A-46EB-AF85-59A08210F7AD}|HvkLesson06.csproj|solutionrelative:views\\hvksong\\hvkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB15E64-CA5A-46EB-AF85-59A08210F7AD}|HvkLesson06.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvklesson06\\models\\hvksong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB15E64-CA5A-46EB-AF85-59A08210F7AD}|HvkLesson06.csproj|solutionrelative:models\\hvksong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB15E64-CA5A-46EB-AF85-59A08210F7AD}|HvkLesson06.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvklesson06\\views\\hvksong\\hvkcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5AB15E64-CA5A-46EB-AF85-59A08210F7AD}|HvkLesson06.csproj|solutionrelative:views\\hvksong\\hvkcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB15E64-CA5A-46EB-AF85-59A08210F7AD}|HvkLesson06.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvklesson06\\controllers\\hvksongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB15E64-CA5A-46EB-AF85-59A08210F7AD}|HvkLesson06.csproj|solutionrelative:controllers\\hvksongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB15E64-CA5A-46EB-AF85-59A08210F7AD}|HvkLesson06.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvklesson06\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5AB15E64-CA5A-46EB-AF85-59A08210F7AD}|HvkLesson06.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HvkCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLesson06\\Views\\HvkSong\\HvkCreate.cshtml",
+              "RelativeDocumentMoniker": "Views\\HvkSong\\HvkCreate.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLesson06\\Views\\HvkSong\\HvkCreate.cshtml",
+              "RelativeToolTip": "Views\\HvkSong\\HvkCreate.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:31:20.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HvkIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLesson06\\Views\\HvkSong\\HvkIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\HvkSong\\HvkIndex.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLesson06\\Views\\HvkSong\\HvkIndex.cshtml",
+              "RelativeToolTip": "Views\\HvkSong\\HvkIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:21:20.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HvkSongController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLesson06\\Controllers\\HvkSongController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HvkSongController.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLesson06\\Controllers\\HvkSongController.cs",
+              "RelativeToolTip": "Controllers\\HvkSongController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T03:01:42.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HvkSong.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLesson06\\Models\\HvkSong.cs",
+              "RelativeDocumentMoniker": "Models\\HvkSong.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLesson06\\Models\\HvkSong.cs",
+              "RelativeToolTip": "Models\\HvkSong.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:55:58.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLesson06\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLesson06\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T02:52:25.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
