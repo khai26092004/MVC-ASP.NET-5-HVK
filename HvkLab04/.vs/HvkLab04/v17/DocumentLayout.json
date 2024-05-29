@@ -1,12 +1,115 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLab04\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6448520D-3867-453D-A4D0-E69DD7701297}|..\\Hvk_lab04_2\\Hvk_lab04_2.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk_lab04_2\\controllers\\hvkcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6448520D-3867-453D-A4D0-E69DD7701297}|..\\Hvk_lab04_2\\Hvk_lab04_2.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk_lab04_2\\views\\hvkcustomer\\hvkgetcustomers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6448520D-3867-453D-A4D0-E69DD7701297}|..\\Hvk_lab04_2\\Hvk_lab04_2.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk_lab04_2\\views\\hvkcustomer\\hvkdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6448520D-3867-453D-A4D0-E69DD7701297}|..\\Hvk_lab04_2\\Hvk_lab04_2.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk_lab04_2\\views\\hvkcustomer\\hvkcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6448520D-3867-453D-A4D0-E69DD7701297}|..\\Hvk_lab04_2\\Hvk_lab04_2.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk_lab04_2\\views\\hvkcustomer\\hvkedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6448520D-3867-453D-A4D0-E69DD7701297}|..\\Hvk_lab04_2\\Hvk_lab04_2.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk_lab04_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HvkEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkEdit.cshtml",
+              "RelativeDocumentMoniker": "..\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkEdit.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkEdit.cshtml",
+              "RelativeToolTip": "..\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkEdit.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T16:44:59.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HvkCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkCreate.cshtml",
+              "RelativeDocumentMoniker": "..\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkCreate.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkCreate.cshtml",
+              "RelativeToolTip": "..\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkCreate.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T16:43:17.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HvkDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkDetails.cshtml",
+              "RelativeDocumentMoniker": "..\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkDetails.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkDetails.cshtml",
+              "RelativeToolTip": "..\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkDetails.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAEAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T16:40:17.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HvkGetCustomers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkGetCustomers.cshtml",
+              "RelativeDocumentMoniker": "..\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkGetCustomers.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkGetCustomers.cshtml",
+              "RelativeToolTip": "..\\Hvk_lab04_2\\Views\\HvkCustomer\\HvkGetCustomers.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T16:23:12.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HvkCustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\Hvk_lab04_2\\Controllers\\HvkCustomerController.cs",
+              "RelativeDocumentMoniker": "..\\Hvk_lab04_2\\Controllers\\HvkCustomerController.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\Hvk_lab04_2\\Controllers\\HvkCustomerController.cs",
+              "RelativeToolTip": "..\\Hvk_lab04_2\\Controllers\\HvkCustomerController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAcwDQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:18:05.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\Hvk_lab04_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\Hvk_lab04_2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\Hvk_lab04_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\Hvk_lab04_2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T16:08:44.316Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

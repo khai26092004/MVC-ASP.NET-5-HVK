@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Hvk_BaiThiGiuaKi.Models.HvkCustomer>
+
+@{
+    ViewBag.Title = "HvkIndex";
+}
+
+<h2>HvkIndex</h2>
+
+<p>
+    @Html.ActionLink("Create New", "HvkCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model._2210900109_CustId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hvk_FullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hvk_Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hvk_Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hvk_Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hvk_Balance)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item._2210900109_CustId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Hvk_FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Hvk_Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Hvk_Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Hvk_Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Hvk_Balance)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "HvkEdit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

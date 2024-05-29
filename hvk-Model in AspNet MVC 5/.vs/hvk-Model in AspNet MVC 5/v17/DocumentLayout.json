@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk-model in aspnet mvc 5\\views\\hvkcustomerscaffding\\hvkedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:views\\hvkcustomerscaffding\\hvkedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk-model in aspnet mvc 5\\controllers\\hvkcustomerscaffdingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:controllers\\hvkcustomerscaffdingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk-model in aspnet mvc 5\\views\\hvkcustomerscaffding\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:views\\hvkcustomerscaffding\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk-model in aspnet mvc 5\\views\\hvkcustomer\\hvklistcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:views\\hvkcustomer\\hvklistcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk-model in aspnet mvc 5\\views\\hvkcustomerscaffding\\hvkcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:views\\hvkcustomerscaffding\\hvkcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk-model in aspnet mvc 5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk-model in aspnet mvc 5\\controllers\\hvkcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\controllers\\hvkcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:controllers\\hvkcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk-model in aspnet mvc 5\\views\\hvkcustomer\\hvkcustomerdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\models\\hvkcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:models\\hvkcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\views\\hvkcustomer\\hvkcustomerdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:views\\hvkcustomer\\hvkcustomerdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk-model in aspnet mvc 5\\models\\hvkcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:models\\hvkcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\views\\hvkcustomer\\hvklistcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:views\\hvkcustomer\\hvklistcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\controllers\\hvkcustomerscaffdingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:controllers\\hvkcustomerscaffdingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\views\\hvkcustomerscaffding\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:views\\hvkcustomerscaffding\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\views\\hvkcustomerscaffding\\hvkcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:views\\hvkcustomerscaffding\\hvkcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvk-model in aspnet mvc 5\\views\\hvkcustomerscaffding\\hvkedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FBCDCC-DB4D-469F-BE76-0DDDAD4C0E93}|hvk-Model in AspNet MVC 5.csproj|solutionrelative:views\\hvkcustomerscaffding\\hvkedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "hvkEdit.cshtml",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\Views\\hvkcustomerscaffding\\hvkEdit.cshtml",
               "RelativeDocumentMoniker": "Views\\hvkcustomerscaffding\\hvkEdit.cshtml",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "hvkCreate.cshtml",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\Views\\hvkcustomerscaffding\\hvkCreate.cshtml",
               "RelativeDocumentMoniker": "Views\\hvkcustomerscaffding\\hvkCreate.cshtml",
@@ -76,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\Views\\hvkcustomerscaffding\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\hvkcustomerscaffding\\Index.cshtml",
@@ -89,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "hvkcustomerscaffdingController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\Controllers\\hvkcustomerscaffdingController.cs",
               "RelativeDocumentMoniker": "Controllers\\hvkcustomerscaffdingController.cs",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "hvklistcustomer.cshtml",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\Views\\hvkcustomer\\hvklistcustomer.cshtml",
               "RelativeDocumentMoniker": "Views\\hvkcustomer\\hvklistcustomer.cshtml",
@@ -115,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -128,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "hvkcustomerDetail.cshtml",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\Views\\hvkcustomer\\hvkcustomerDetail.cshtml",
               "RelativeDocumentMoniker": "Views\\hvkcustomer\\hvkcustomerDetail.cshtml",
@@ -141,20 +141,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "hvkcustomerController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\Controllers\\hvkcustomerController.cs",
               "RelativeDocumentMoniker": "Controllers\\hvkcustomerController.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\Controllers\\hvkcustomerController.cs",
               "RelativeToolTip": "Controllers\\hvkcustomerController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowCMAAAAXAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T12:20:51.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "hvkcustomer.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\hvk-Model in AspNet MVC 5\\Models\\hvkcustomer.cs",
               "RelativeDocumentMoniker": "Models\\hvkcustomer.cs",

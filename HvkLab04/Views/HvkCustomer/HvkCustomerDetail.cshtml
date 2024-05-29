@@ -1,0 +1,14 @@
+﻿@*lấy dữ liệu truyền qua đối tượng model theo cách 1*@
+@*model HvkLab04.Models.Hvkcustomer*@
+@{
+    ViewBag.Title = "Chi tiết khách hàng";
+    //lấy dữ liệu truyền qua đối tượng theo cách 2
+    var customer = Model as HvkLab04.Models.Hvkcustomer;
+}
+<h2>Chi tiết khách hàng lấy theo cách 1 </h2>
+<p>Mã số: @Model.CustomerId </p>
+<p>Họ và tên: @Model.FullName </p>
+<p>Địa chỉ: @Model.Address </p>
+<p>Điện thoại: @Model.Phone </p>
+<p>Email: @Model.Email </p>
+
