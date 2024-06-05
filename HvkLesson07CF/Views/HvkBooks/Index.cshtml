@@ -1,0 +1,69 @@
+﻿@model IEnumerable<HvkLesson07CF.Models.Hvkbook>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkBookId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkAuthor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkPulisher)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkPicture)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkCategoryId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkBookId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkAuthor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkPulisher)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkPicture)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkCategoryId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.HvkId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.HvkId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.HvkId })
+        </td>
+    </tr>
+}
+
+</table>

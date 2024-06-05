@@ -1,0 +1,74 @@
+﻿@model HvkLesson07CF.Models.Hvkbook
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Hvkbook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkBookId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkBookId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkAuthor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkAuthor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkPulisher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkPulisher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkPicture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkPicture)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkCategoryId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkCategoryId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.HvkId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

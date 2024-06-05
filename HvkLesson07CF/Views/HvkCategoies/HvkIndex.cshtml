@@ -1,0 +1,33 @@
+﻿@model IEnumerable<HvkLesson07CF.Models.HvkCategory>
+
+@{
+    ViewBag.Title = "HvkIndex";
+}
+
+<h2>HvkIndex</h2>
+
+<p>
+    @Html.ActionLink("Create New", "HvkCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkCategoryName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkCategoryName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.HvkId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.HvkId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.HvkId })
+        </td>
+    </tr>
+}
+
+</table>
