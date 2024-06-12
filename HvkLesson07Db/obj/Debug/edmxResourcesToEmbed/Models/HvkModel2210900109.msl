@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HvkK22CNT4Lesson07DbModelStoreContainer" CdmEntityContainer="HvkK22CNT4Lesson07DbEntities">
+    <EntitySetMapping Name="hvkKhoa">
+      <EntityTypeMapping TypeName="HvkK22CNT4Lesson07DbModel.hvkKhoa">
+        <MappingFragment StoreEntitySet="hvkKhoa">
+          <ScalarProperty Name="HvkKH" ColumnName="HvkKH" />
+          <ScalarProperty Name="HvkTenKH" ColumnName="HvkTenKH" />
+          <ScalarProperty Name="HvkTrangThai" ColumnName="HvkTrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hvkSinhVien">
+      <EntityTypeMapping TypeName="HvkK22CNT4Lesson07DbModel.hvkSinhVien">
+        <MappingFragment StoreEntitySet="hvkSinhVien">
+          <ScalarProperty Name="HvkMaSV" ColumnName="HvkMaSV" />
+          <ScalarProperty Name="HvkHoSV" ColumnName="HvkHoSV" />
+          <ScalarProperty Name="HvkTenSV" ColumnName="HvkTenSV" />
+          <ScalarProperty Name="HvkNgaySinh" ColumnName="HvkNgaySinh" />
+          <ScalarProperty Name="HvkPhai" ColumnName="HvkPhai" />
+          <ScalarProperty Name="HvkPhone" ColumnName="HvkPhone" />
+          <ScalarProperty Name="HvkEmail" ColumnName="HvkEmail" />
+          <ScalarProperty Name="HvkMaKH" ColumnName="HvkMaKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
