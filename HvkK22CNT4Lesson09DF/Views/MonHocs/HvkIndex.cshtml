@@ -1,0 +1,40 @@
+﻿@model IEnumerable<HvkK22CNT4Lesson09DF.Models.MonHoc>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "HvkCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TenMH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SoTiet)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenMH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoTiet)
+            </td>
+            <td>
+                @Html.ActionLink("Hvk:Edit", "HvkEdit", new { id = item.MaMH.Trim() }) |
+                @Html.ActionLink("Hvk:Details", "HvkDetails", new { id = item.MaMH.Trim() }) |
+                @Html.ActionLink("Hvk:Delete", "HvkDelete", new { id = item.MaMH.Trim() })
+            </td>
+        </tr>
+    }
+
+</table>
