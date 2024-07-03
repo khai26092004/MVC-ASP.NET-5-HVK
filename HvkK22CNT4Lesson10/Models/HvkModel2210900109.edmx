@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="HvkK22CNT4Lesson10DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="HvkAccount">
+          <Key>
+            <PropertyRef Name="HvkID" />
+          </Key>
+          <Property Name="HvkID" Type="int" Nullable="false" />
+          <Property Name="HvkUserName" Type="nvarchar" MaxLength="50" />
+          <Property Name="HvKPassword" Type="nvarchar" MaxLength="50" />
+          <Property Name="HvkFullName" Type="nvarchar" MaxLength="50" />
+          <Property Name="HvkEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="HvkPhone" Type="nvarchar" MaxLength="50" />
+          <Property Name="HvkAtive" Type="bit" />
+        </EntityType>
+        <EntityContainer Name="HvkK22CNT4Lesson10DbModelStoreContainer">
+          <EntitySet Name="HvkAccount" EntityType="Self.HvkAccount" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="HvkK22CNT4Lesson10DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="HvkAccount">
+          <Key>
+            <PropertyRef Name="HvkID" />
+          </Key>
+          <Property Name="HvkID" Type="Int32" Nullable="false" />
+          <Property Name="HvkUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="HvKPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="HvkFullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="HvkEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="HvkPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="HvkAtive" Type="Boolean" />
+        </EntityType>
+        <EntityContainer Name="HvkK22CNT4Lesson10DbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="HvkAccount" EntityType="Self.HvkAccount" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="HvkK22CNT4Lesson10DbModelStoreContainer" CdmEntityContainer="HvkK22CNT4Lesson10DbEntities">
+          <EntitySetMapping Name="HvkAccount">
+            <EntityTypeMapping TypeName="HvkK22CNT4Lesson10DbModel.HvkAccount">
+              <MappingFragment StoreEntitySet="HvkAccount">
+                <ScalarProperty Name="HvkID" ColumnName="HvkID" />
+                <ScalarProperty Name="HvkUserName" ColumnName="HvkUserName" />
+                <ScalarProperty Name="HvKPassword" ColumnName="HvKPassword" />
+                <ScalarProperty Name="HvkFullName" ColumnName="HvkFullName" />
+                <ScalarProperty Name="HvkEmail" ColumnName="HvkEmail" />
+                <ScalarProperty Name="HvkPhone" ColumnName="HvkPhone" />
+                <ScalarProperty Name="HvkAtive" ColumnName="HvkAtive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

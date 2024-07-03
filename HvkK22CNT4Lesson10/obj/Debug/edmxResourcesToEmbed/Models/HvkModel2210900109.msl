@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HvkK22CNT4Lesson10DbModelStoreContainer" CdmEntityContainer="HvkK22CNT4Lesson10DbEntities">
+    <EntitySetMapping Name="HvkAccount">
+      <EntityTypeMapping TypeName="HvkK22CNT4Lesson10DbModel.HvkAccount">
+        <MappingFragment StoreEntitySet="HvkAccount">
+          <ScalarProperty Name="HvkID" ColumnName="HvkID" />
+          <ScalarProperty Name="HvkUserName" ColumnName="HvkUserName" />
+          <ScalarProperty Name="HvKPassword" ColumnName="HvKPassword" />
+          <ScalarProperty Name="HvkFullName" ColumnName="HvkFullName" />
+          <ScalarProperty Name="HvkEmail" ColumnName="HvkEmail" />
+          <ScalarProperty Name="HvkPhone" ColumnName="HvkPhone" />
+          <ScalarProperty Name="HvkAtive" ColumnName="HvkAtive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

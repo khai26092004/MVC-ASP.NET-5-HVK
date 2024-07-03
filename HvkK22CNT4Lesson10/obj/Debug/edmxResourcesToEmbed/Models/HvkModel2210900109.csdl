@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HvkK22CNT4Lesson10DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="HvkAccount">
+    <Key>
+      <PropertyRef Name="HvkID" />
+    </Key>
+    <Property Name="HvkID" Type="Int32" Nullable="false" />
+    <Property Name="HvkUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HvKPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HvkFullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HvkEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HvkPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HvkAtive" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="HvkK22CNT4Lesson10DbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="HvkAccount" EntityType="Self.HvkAccount" />
+  </EntityContainer>
+</Schema>

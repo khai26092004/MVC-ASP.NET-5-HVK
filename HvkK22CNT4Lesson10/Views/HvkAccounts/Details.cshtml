@@ -1,0 +1,67 @@
+﻿@model HvkK22CNT4Lesson10.Models.HvkAccount
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_HvkLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>HvkAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvKPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvKPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkAtive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkAtive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.HvkID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

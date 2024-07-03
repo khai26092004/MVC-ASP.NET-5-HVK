@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HvkK22CNT4Lesson10DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="HvkAccount">
+    <Key>
+      <PropertyRef Name="HvkID" />
+    </Key>
+    <Property Name="HvkID" Type="int" Nullable="false" />
+    <Property Name="HvkUserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="HvKPassword" Type="nvarchar" MaxLength="50" />
+    <Property Name="HvkFullName" Type="nvarchar" MaxLength="50" />
+    <Property Name="HvkEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="HvkPhone" Type="nvarchar" MaxLength="50" />
+    <Property Name="HvkAtive" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="HvkK22CNT4Lesson10DbModelStoreContainer">
+    <EntitySet Name="HvkAccount" EntityType="Self.HvkAccount" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

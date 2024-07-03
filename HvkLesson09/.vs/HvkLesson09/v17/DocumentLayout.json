@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLesson09\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA7A311-F752-452E-8000-D2070D8E0135}|HvkLesson09.csproj|c:\\users\\asus\\source\\mvc asp.net 5\\mvc-asp.net-5-hvk\\hvklesson09\\models\\hvkmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{BCA7A311-F752-452E-8000-D2070D8E0135}|HvkLesson09.csproj|solutionrelative:models\\hvkmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HvkModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLesson09\\Models\\HvkModel.edmx",
+              "RelativeDocumentMoniker": "Models\\HvkModel.edmx",
+              "ToolTip": "C:\\Users\\Asus\\source\\MVC ASP.NET 5\\MVC-ASP.NET-5-HVK\\HvkLesson09\\Models\\HvkModel.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\HvkModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-26T11:01:39.114Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

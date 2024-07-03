@@ -1,0 +1,64 @@
+﻿@model IEnumerable<HvkK22CNT4Lesson10.Models.HvkAccount>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_HvkLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkUserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvKPassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkFullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkAtive)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkUserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvKPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkFullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkAtive)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.HvkID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.HvkID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.HvkID })
+        </td>
+    </tr>
+}
+
+</table>
