@@ -1,0 +1,35 @@
+﻿@model HvkK22CNT4Lesson11Db.Models.HvkCategory
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Hvk2210900109Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>HvkCategory</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkCateName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkStatus)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.HvkID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

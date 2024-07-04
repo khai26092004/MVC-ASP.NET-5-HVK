@@ -1,0 +1,56 @@
+﻿@model IEnumerable<HvkK22CNT4Lesson11Db.Models.HvkCategory>
+
+@{
+    ViewBag.Title = "Danh mục sản phẩm";
+    Layout = "~/Views/Shared/_Hvk2210900109Layout.cshtml";
+}
+
+<h2>Danh mục sản phẩm</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<a href="/HvkCategories/Create" class="btn btn-primary my-3" > Thêm mới </a>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkID)
+        </th>
+       
+        @Html.DisplayNameFor(model => model.HvkCateName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkStatus)
+        </th>
+        <th>Chức năng</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkCateName)
+        </td>
+        <td>
+           @*Html.DisplayFor(modelItem => item.HvkStatus)*@
+
+            @if (item.HvkStatus == true)
+            {
+                <span Style="color:green ">Hoạt động</span>
+            }
+            else
+            {
+                <span Style="color:red ">Không Hoạt động</span>
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.HvkID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.HvkID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.HvkID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<HvkK22CNT4Lesson11Db.Models.HvkProduct>
+
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_Hvk2210900109Layout.cshtml";
+}
+
+<h2>Danh sách sản phẩm</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Hvkid2210900109)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkProName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkQty)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkActive)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HvkCategory.HvkCateName)
+        </th>
+        <th> Chức năng</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Hvkid2210900109)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkProName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkQty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkPrice)
+        </td>
+        <td>
+            @*Html.DisplayFor(modelItem => item.HvkActive)*@
+            {
+            <span Style="color:green ">Hoạt động</span>
+            }
+            else
+            {
+            <span Style="color:red ">Không Hoạt động</span>
+            }
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HvkCategory.HvkCateName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.Hvkid2210900109 }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Hvkid2210900109 }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Hvkid2210900109 })
+        </td>
+    </tr>
+}
+
+</table>

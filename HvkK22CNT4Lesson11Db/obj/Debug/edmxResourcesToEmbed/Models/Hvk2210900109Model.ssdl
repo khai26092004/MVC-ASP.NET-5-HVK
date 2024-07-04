@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HvkK22CNTLesson11DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="HvkCategory">
+    <Key>
+      <PropertyRef Name="HvkID" />
+    </Key>
+    <Property Name="HvkID" Type="int" Nullable="false" />
+    <Property Name="HvkCateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="HvkStatus" Type="bit" />
+  </EntityType>
+  <EntityType Name="HvkProduct">
+    <Key>
+      <PropertyRef Name="Hvkid2210900109" />
+    </Key>
+    <Property Name="Hvkid2210900109" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="HvkProName" Type="nvarchar" MaxLength="50" />
+    <Property Name="HvkQty" Type="int" />
+    <Property Name="HvkPrice" Type="float" />
+    <Property Name="HvkCateId" Type="int" />
+    <Property Name="HvkActive" Type="bit" />
+  </EntityType>
+  <Association Name="FK_HvkProduct_HvkCategory">
+    <End Role="HvkCategory" Type="Self.HvkCategory" Multiplicity="0..1" />
+    <End Role="HvkProduct" Type="Self.HvkProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HvkCategory">
+        <PropertyRef Name="HvkID" />
+      </Principal>
+      <Dependent Role="HvkProduct">
+        <PropertyRef Name="HvkCateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HvkK22CNTLesson11DbModelStoreContainer">
+    <EntitySet Name="HvkCategory" EntityType="Self.HvkCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HvkProduct" EntityType="Self.HvkProduct" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_HvkProduct_HvkCategory" Association="Self.FK_HvkProduct_HvkCategory">
+      <End Role="HvkCategory" EntitySet="HvkCategory" />
+      <End Role="HvkProduct" EntitySet="HvkProduct" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

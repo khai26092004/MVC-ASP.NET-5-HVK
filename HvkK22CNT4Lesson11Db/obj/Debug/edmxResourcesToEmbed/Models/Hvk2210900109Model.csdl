@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HvkK22CNTLesson11DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="HvkCategory">
+    <Key>
+      <PropertyRef Name="HvkID" />
+    </Key>
+    <Property Name="HvkID" Type="Int32" Nullable="false" />
+    <Property Name="HvkCateName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HvkStatus" Type="Boolean" />
+    <NavigationProperty Name="HvkProduct" Relationship="Self.FK_HvkProduct_HvkCategory" FromRole="HvkCategory" ToRole="HvkProduct" />
+  </EntityType>
+  <EntityType Name="HvkProduct">
+    <Key>
+      <PropertyRef Name="Hvkid2210900109" />
+    </Key>
+    <Property Name="Hvkid2210900109" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HvkProName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HvkQty" Type="Int32" />
+    <Property Name="HvkPrice" Type="Double" />
+    <Property Name="HvkCateId" Type="Int32" />
+    <Property Name="HvkActive" Type="Boolean" />
+    <NavigationProperty Name="HvkCategory" Relationship="Self.FK_HvkProduct_HvkCategory" FromRole="HvkProduct" ToRole="HvkCategory" />
+  </EntityType>
+  <Association Name="FK_HvkProduct_HvkCategory">
+    <End Role="HvkCategory" Type="Self.HvkCategory" Multiplicity="0..1" />
+    <End Role="HvkProduct" Type="Self.HvkProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HvkCategory">
+        <PropertyRef Name="HvkID" />
+      </Principal>
+      <Dependent Role="HvkProduct">
+        <PropertyRef Name="HvkCateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HvkK22CNTLesson11DbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="HvkCategory" EntityType="Self.HvkCategory" />
+    <EntitySet Name="HvkProduct" EntityType="Self.HvkProduct" />
+    <AssociationSet Name="FK_HvkProduct_HvkCategory" Association="Self.FK_HvkProduct_HvkCategory">
+      <End Role="HvkCategory" EntitySet="HvkCategory" />
+      <End Role="HvkProduct" EntitySet="HvkProduct" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

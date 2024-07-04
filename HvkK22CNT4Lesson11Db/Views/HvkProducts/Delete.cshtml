@@ -1,0 +1,65 @@
+﻿@model HvkK22CNT4Lesson11Db.Models.HvkProduct
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Hvk2210900109Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>HvkProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkCategory.HvkCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkCategory.HvkCateName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "HvkIndex")
+        </div>
+    }
+</div>

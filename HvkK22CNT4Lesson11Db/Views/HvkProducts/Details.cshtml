@@ -1,0 +1,59 @@
+﻿@model HvkK22CNT4Lesson11Db.Models.HvkProduct
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Hvk2210900109Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>HvkProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HvkCategory.HvkCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HvkCategory.HvkCateName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Hvkid2210900109 }) |
+    @Html.ActionLink("Back to List", "HvkIndex")
+</p>
