@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HoangVanKhai_2210900109ModelStoreContainer" CdmEntityContainer="HoangVanKhai_2210900109Entities">
+    <EntitySetMapping Name="Hvk_Sach">
+      <EntityTypeMapping TypeName="HoangVanKhai_2210900109Model.Hvk_Sach">
+        <MappingFragment StoreEntitySet="Hvk_Sach">
+          <ScalarProperty Name="Hvk_MaSach" ColumnName="Hvk_MaSach" />
+          <ScalarProperty Name="Hvk_TenSach" ColumnName="Hvk_TenSach" />
+          <ScalarProperty Name="Hvk_SoTrang" ColumnName="Hvk_SoTrang" />
+          <ScalarProperty Name="Hvk_NamXB" ColumnName="Hvk_NamXB" />
+          <ScalarProperty Name="Hvk_MaTG" ColumnName="Hvk_MaTG" />
+          <ScalarProperty Name="Hvk_TrangThai" ColumnName="Hvk_TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hvk_TacGia">
+      <EntityTypeMapping TypeName="HoangVanKhai_2210900109Model.Hvk_TacGia">
+        <MappingFragment StoreEntitySet="Hvk_TacGia">
+          <ScalarProperty Name="Hvk_MaTG" ColumnName="Hvk_MaTG" />
+          <ScalarProperty Name="Hvk_TenTG" ColumnName="Hvk_TenTG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

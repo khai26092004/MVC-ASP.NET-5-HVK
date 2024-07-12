@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HoangVanKhai_2210900109Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Hvk_Sach">
+    <Key>
+      <PropertyRef Name="Hvk_MaSach" />
+    </Key>
+    <Property Name="Hvk_MaSach" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Hvk_TenSach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Hvk_SoTrang" Type="Int16" />
+    <Property Name="Hvk_NamXB" Type="DateTime" Precision="0" />
+    <Property Name="Hvk_MaTG" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="Hvk_TrangThai" Type="Boolean" />
+    <NavigationProperty Name="Hvk_TacGia" Relationship="Self.FK_Hvk_Sach_Hvk_TacGia" FromRole="Hvk_Sach" ToRole="Hvk_TacGia" />
+  </EntityType>
+  <EntityType Name="Hvk_TacGia">
+    <Key>
+      <PropertyRef Name="Hvk_MaTG" />
+    </Key>
+    <Property Name="Hvk_MaTG" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Hvk_TenTG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Hvk_Sach" Relationship="Self.FK_Hvk_Sach_Hvk_TacGia" FromRole="Hvk_TacGia" ToRole="Hvk_Sach" />
+  </EntityType>
+  <Association Name="FK_Hvk_Sach_Hvk_TacGia">
+    <End Role="Hvk_TacGia" Type="Self.Hvk_TacGia" Multiplicity="0..1" />
+    <End Role="Hvk_Sach" Type="Self.Hvk_Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hvk_TacGia">
+        <PropertyRef Name="Hvk_MaTG" />
+      </Principal>
+      <Dependent Role="Hvk_Sach">
+        <PropertyRef Name="Hvk_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HoangVanKhai_2210900109Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Hvk_Sach" EntityType="Self.Hvk_Sach" />
+    <EntitySet Name="Hvk_TacGia" EntityType="Self.Hvk_TacGia" />
+    <AssociationSet Name="FK_Hvk_Sach_Hvk_TacGia" Association="Self.FK_Hvk_Sach_Hvk_TacGia">
+      <End Role="Hvk_TacGia" EntitySet="Hvk_TacGia" />
+      <End Role="Hvk_Sach" EntitySet="Hvk_Sach" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

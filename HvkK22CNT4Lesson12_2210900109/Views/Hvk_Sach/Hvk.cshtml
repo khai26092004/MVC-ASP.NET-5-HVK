@@ -1,0 +1,59 @@
+﻿@model HvkK22CNT4Lesson12_2210900109.Controllers.Hvk_Sach
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Hvk2210900109Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Hvk_Sach</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Hvk_TenSach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hvk_TenSach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hvk_SoTrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hvk_SoTrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hvk_NamXB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hvk_NamXB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hvk_TrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hvk_TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hvk_TacGia.Hvk_TenTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hvk_TacGia.Hvk_TenTG)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Hvk_MaSach }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

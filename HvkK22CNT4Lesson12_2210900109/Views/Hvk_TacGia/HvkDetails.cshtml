@@ -1,0 +1,27 @@
+﻿@model HvkK22CNT4Lesson12_2210900109.Controllers.Hvk_TacGia
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Hvk2210900109Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Hvk_TacGia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Hvk_TenTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hvk_TenTG)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Hvk_MaTG }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

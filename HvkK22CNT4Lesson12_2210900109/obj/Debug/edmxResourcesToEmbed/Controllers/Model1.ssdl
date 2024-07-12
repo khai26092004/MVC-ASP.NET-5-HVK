@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HoangVanKhai_2210900109Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Hvk_Sach">
+    <Key>
+      <PropertyRef Name="Hvk_MaSach" />
+    </Key>
+    <Property Name="Hvk_MaSach" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="Hvk_TenSach" Type="nvarchar" MaxLength="50" />
+    <Property Name="Hvk_SoTrang" Type="smallint" />
+    <Property Name="Hvk_NamXB" Type="date" />
+    <Property Name="Hvk_MaTG" Type="char" MaxLength="5" />
+    <Property Name="Hvk_TrangThai" Type="bit" />
+  </EntityType>
+  <EntityType Name="Hvk_TacGia">
+    <Key>
+      <PropertyRef Name="Hvk_MaTG" />
+    </Key>
+    <Property Name="Hvk_MaTG" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="Hvk_TenTG" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Hvk_Sach_Hvk_TacGia">
+    <End Role="Hvk_TacGia" Type="Self.Hvk_TacGia" Multiplicity="0..1" />
+    <End Role="Hvk_Sach" Type="Self.Hvk_Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hvk_TacGia">
+        <PropertyRef Name="Hvk_MaTG" />
+      </Principal>
+      <Dependent Role="Hvk_Sach">
+        <PropertyRef Name="Hvk_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HoangVanKhai_2210900109ModelStoreContainer">
+    <EntitySet Name="Hvk_Sach" EntityType="Self.Hvk_Sach" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Hvk_TacGia" EntityType="Self.Hvk_TacGia" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Hvk_Sach_Hvk_TacGia" Association="Self.FK_Hvk_Sach_Hvk_TacGia">
+      <End Role="Hvk_TacGia" EntitySet="Hvk_TacGia" />
+      <End Role="Hvk_Sach" EntitySet="Hvk_Sach" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

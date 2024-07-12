@@ -1,0 +1,65 @@
+﻿@model HvkK22CNT4Lesson12_2210900109.Controllers.Hvk_Sach
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Hvk2210900109Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Hvk_Sach</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Hvk_TenSach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hvk_TenSach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hvk_SoTrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hvk_SoTrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hvk_NamXB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hvk_NamXB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hvk_TrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hvk_TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hvk_TacGia.Hvk_TenTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hvk_TacGia.Hvk_TenTG)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
